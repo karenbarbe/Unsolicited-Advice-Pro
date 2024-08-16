@@ -138,7 +138,7 @@ function addMajorCard(i) {
   majorSelect.addEventListener('change', function() {
     const imageName = getMajorImage(i);
     img.alt = getMajorName(i);
-    img.src = `/assets/images/${imageName}`;
+    img.src = `./assets/images/${imageName}`;
     getMajorInfo(i, majorArcanaData);
     getAspects();
   })
